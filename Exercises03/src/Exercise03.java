@@ -3,6 +3,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
 	
+/**
+ * Calculate how many minutes is it until the new year.
+ */
+
 public class Exercise03 {
 	private LocalDateTime convertToDate(String date) throws DateTimeParseException {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");

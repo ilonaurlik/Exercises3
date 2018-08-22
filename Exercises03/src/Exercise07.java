@@ -3,6 +3,10 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * What time was in Chicago when you've finished the previous exercise? 
+ */
+
 public class Exercise07 {
 	private final String DATE = "2018-08-03 19:40";
 	private static final ZoneId TIMEZONE_CENTRAL_EUROPEAN_TIME = ZoneId.of("Europe/Warsaw");

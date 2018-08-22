@@ -1,6 +1,10 @@
 import java.util.Calendar;
 import java.util.TimeZone;
 
+/**
+ * Is there the same date in New York and Beijing now?
+ */
+
 public class Exercise06 {
 	private Calendar getNewYorkTime() {
 		return Calendar.getInstance(TimeZone.getTimeZone("America/New_York"));

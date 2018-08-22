@@ -3,6 +3,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
 	
+/**
+ * Calculate how many minutes it took to do these tasks? Assume that you started on Sunday at 9 am.
+ */
+
 public class Exercise11 {
 	private LocalDateTime convertToDate(String date) throws DateTimeParseException {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");

@@ -3,6 +3,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
 	
+/**
+ * How many hours is between my and your birthday (from midnight to midnight)?
+ */
+
 public class Exercise09 {
 	private LocalDateTime convertToDate(String date) throws DateTimeParseException {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");

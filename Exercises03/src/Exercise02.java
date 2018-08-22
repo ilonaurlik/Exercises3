@@ -2,6 +2,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
+
+/** 
+ * Calculate how many days is it until the new year.
+ */
 	
 public class Exercise02 {
 	private LocalDate convertToDate(String date) throws DateTimeParseException {

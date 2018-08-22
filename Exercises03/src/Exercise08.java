@@ -3,6 +3,10 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Titanic sank at 2:20AM 15.04. What time and date was in Poland at this moment?
+ */
+
 public class Exercise08 {
 	private final String DATE = "1912-04-15 02:20";
 	private static final ZoneId TIMEZONE_CENTRAL_EUROPEAN_TIME = ZoneId.of("Europe/Warsaw");

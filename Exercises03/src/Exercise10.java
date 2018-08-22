@@ -1,5 +1,9 @@
 import java.time.LocalDateTime;
 
+/**
+ * Is the bank open at this time, assuming that open hours are following: Mon - Fri 8:00 - 17:00, Sat 10:00 - 15:00?
+ */
+
 public class Exercise10 {
 	private static LocalDateTime getCurrentDate() {
 		return LocalDateTime.now();

@@ -2,6 +2,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
+/** 
+ * Take two dates, check which is newer (or later in time if in the future).
+ */
+
 public class Exercise01 {
 	private LocalDate convertToDate(String date) throws DateTimeParseException {
 		return LocalDate.parse(date, DateTimeFormatter.BASIC_ISO_DATE);
