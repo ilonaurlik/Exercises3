@@ -3,7 +3,7 @@
 2) Calculate how many days is it until the new year.
 3) Calculate how many minutes is it until the new year.
 4) What time is now in San Francisco?
-5) What time is now in Pekin?
+5) What time is now in Beijing?
 6) Is there the same date in New York and Beijing now?
 7) What time was in Chicago when you've finished the previous exercise?
 8) Titanic sank at 2:20AM 15.04. What time and date was in Poland at this moment?
